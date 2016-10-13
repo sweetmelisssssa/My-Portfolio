@@ -102,3 +102,59 @@ a:active {
 	text-align: center;
 	padding-top: 12px;
 }
+
+.jumbotron-about-us{
+	background-color: #9ed5bc;
+	width: 100%;
+	height: 200px;
+}
+
+.jumbotron-about-us h2 {
+	color: #58585b;
+	text-align: center; 
+}
+
+.jumbotron-about-us p{
+	color: white;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#littlesister-h1, #bigsister-h1 {
+	text-align: center;
+}
+
+#littlesister-p, #bigsister-p {
+	text-align: justify;
+}
+
+#contact-h3 h3 {
+	color: #58585b;
+	text-align: center; 
+}
+
+
+form {
+	text-align: center;
+	margin: 0 200px 50px 200px;
+}
+
+.contactimage {
+	margin-bottom: 50px;
+}
+
+.contact-button {
+	background-color: #9ed5bc;
+	color: white;
+	margin-bottom: 25px;
+	border: none;
+	padding: 10px 25px 10px 25px;
+}
+
+footer {
+	color: white;
+	background: #2A2B2A;
+	height: 50px;
+	width: 100%;
+}
