@@ -1,0 +1,104 @@
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.hlsd-navbar-background {
+	background-color: #333;
+	height: 75px;
+}
+
+.hlsd-word-navbar {
+	color: #777;
+	float: left;
+	font-size: 22px;
+	padding-left: 50px;
+	padding-top: 23px;
+}
+
+.hlsd-li-navbar {
+	color: #777;
+}
+
+li {
+	float: right;
+	font-size: 15px;
+	padding-right: 50px;
+	padding-top: 27px;
+}
+
+.hlsd-jumbotron {
+	padding: 50px;
+}
+
+.hlsd-logo {
+	margin-left: 50px;
+}
+
+.ph-button {
+	border: solid 2px;
+	color: white;
+	padding: 30px 30px 30px 30px;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 130px;
+	font-size: 24px;
+}
+
+.ph-button > a:link {
+	color: white;
+	text-decoration: none;
+}
+.ph-button > a:hover {
+	color: #9ed5bc;
+	text-decoration: none;
+}
+
+.ph-button > a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#ph-container {
+	background-image: url(../img/ph-all-fruit.jpg);
+	width: 100%;
+	height: 350px;
+
+}
+/* unvisited link */
+a:link {
+    color: ##777;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: ##777;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #9ed5bc;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: ##777;
+    text-decoration: none;
+}
+
+.hlsd-footer {
+	background-color: #333;
+	height: 50px;
+}
+
+.hlsd-copyright {
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+}

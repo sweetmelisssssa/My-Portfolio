@@ -1,14 +1,36 @@
+.parent-class {
+	background: yellow;
+	margin-top: 40px;
 
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.relative-behavior {
+	position: relative;
+	background-color: blue;
+	color: white;
+	top: 20px;
+	left: 20px;
+}
 
+.fixed-behavior {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: pink;
+}
 
+.absolute-behavior {
+	position: absolute;
+	background-color: red;
+	top: 20px;
+	left: 20px;
+}
 
-
-
-
+@media (max-width: 480px) {
+	.fixed-behavior {
+		top: 100px; 
+		}
+	}
 
 
 
