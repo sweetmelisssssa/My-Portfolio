@@ -1,34 +1,39 @@
 {
-	"projects":
+	'projects':
 	[
 		{
-			'name': 'New Limeco',
+			'name': 'NewLimeco',
 			'thumb': '',
 			'description': 'Powerful Harvest is a tropical produce line from New Limeco, LLC specializing in the finest quality avocados, coconuts, papayas, and guavas. They promote the idea that being healthy starts from what you put into your body. For this reason, three of their four products carry the Non-GMO certification. With years of experience in the produce industry, New Limeco prides themselves with being able to provide consumers with top-of-the-line quality produce while utilizing state-of-the-art sanitary practices, equipment, and production techniques while still retaining their hands on “mom-and-pop company” values. When they came to us to brand their new Powerful Harvest line they already had their New Limeco logo, but, they needed a way to incorporate the new line of produce with their existing products. (All photography was done by Hey Little Sister Design.)'
-				[
-					'thumb' : "img/newlimeco_logo_thumbnail.jpg",
-					'fullsize' : "img/newlimeco_logo_fullsize.jpg"
-				]
+			'images':	
+			[
+					'imagetitle': 'PowerfulHarvest'
+					'thumb' : 'img/newlimeco_logo_thumbnail.jpg',
+					'fullsize' : 'img/newlimeco_logo_fullsize.jpg'
+			]
 		},
 
 		{
-			'name: 'Florida Keys Cardiology',
+			'name: 'FloridaKeysCardiology',
 			'thumb': '',
 			'description': 'Florida Keys Cardiology is a non-invasive cardiologist office headed by Madhavi G. Chunduru, MD in Homestead, Florida. She personally performs all specialized treatments with over 20 years of experience. Dr. Chunduru wanted to establish an image for her company that would make her recognizable in the community. She wanted something that was warm and welcoming yet professional.'
 				[
-					'thumb' : "img/fkc_logo_thumbnail.jpg",
-					'fullsize' : "fkc_logo_fullsize.jpg"
+					
+					'imagetitle': 'FloridaKeysCardiology'
+					'thumb' : 'img/fkc_logo_thumbnail.jpg',
+					'fullsize' : 'fkc_logo_fullsize.jpg'
 				]
 		},
 
-			{
-			'name': 'Natalis's Shaved Ice',
+		{
+			'name': 'NatalissShavedIce',
 			'thumb': '',
 			'description': 'Natalia’s Shaved Ice has been a local favorite in Homestead, Florida for the past eight years. They are at the Redland’s Farmer’s Market every weekend and do big events from Florida City to Miami as well as a lot of fundraising for schools and churches. They are known for their wide variety of products made with homemade flavors and fresh fruit. When re-branding their business Natalia wanted something to reflect their old school style. We decided to go with a vintage hand lettering feel that was simple but still showed the nature of the business.'
 				[
-					'thumb' : "img/nataliasshavedice_logo_thumbnail.jpg",
-					'fullsize' : "img/nataliasshavedice_logo_fullsize.jpg"
+					'imagetitle': 'NatalissShavedIce'
+					'thumb' : 'img/nataliasshavedice_logo_thumbnail.jpg',
+					'fullsize' : 'img/nataliasshavedice_logo_fullsize.jpg'
 				]
-			}
+		}
 	]
 }
