@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="css/hlsd.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
 
   <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
@@ -33,43 +34,54 @@
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+<!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron-about-us">
       <div class="container-about-us">
         <div class="row">
-          <div id="contact-h3" class="col-md-12"><h3>Do you need a new logo for your company?<br> Do you want to increase the advertisement of your small business? <br>Do you need help solving a design problem? <br>We can help!</h3>
-            <p>Please leave us a message and we will do our best to respond within 24 hours. :)</p></div>
+          <div class="col-md-12"><h3 id="contact-header-h3">DO YOU NEED A NEW LOGO FOR YOUR COMPANY?<br> DO YOU NEED ADVERTISEMENT FOR YOUR SMALL BUSINESS? <br> DO YOU NEED TO INCREASE YOUR WEB PRESENCE? <br>WE CAN HELP!</h3>
+            <p id="dotted-line">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+            <h4 id="contact-header-h4">PLEASE LEAVE US A MESSAGE AND WE WILL DO <br> OUR BEST TO RESPOND WITHIN 24 HOURS :)</h4></div>
           </div>
         </div>
       </div>
 
-      <form>
-        <div class="row">
-          <div class="contactimage" class="col-md-12"><img width=600px src="img/mailsent.png"></div>
-          <div>
+<!--- Form -->
+  <form>
+    <div class="row">
+      <div class="col-sm-2"></div>
+         
+      <div class="col-sm-8">
+          <div class="contactimage"><img width=600px src="img/mailsent.png"></div>
+          
 
             <div class="form-group">
               <label for="exampleInputPassword1">Name</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Please enter your name">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your name">
             </div>
+
             <div class="form-group">
               <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
+
             <div class="form-group">
               <label for="exampleTextarea">Message</label>
               <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
             </div>
+
             <div><h3>Thank you!</h3>
             </div >
+
             <div ><button type="submit" class="contact-button">Submit</button>
             </div>
-            </div>
-            </div>
-          </form>
-          <div>
+        </div>
+      <div class="col-sm-2"></div>
+    </div>
+  </form>
 
+
+<!--- Footer -->
 
             <footer class="hlsd-footer">
               <div>
