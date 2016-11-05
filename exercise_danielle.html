@@ -1,0 +1,59 @@
+<script type = "text/javascript">
+var employeesDictionary = {
+  "names" : ['pedro','max','alex'],
+  "boss" : [null,'pedro','pedro', 'pedro']
+}
+
+var arrayOfBosses = employeesDictionary["boss"];
+
+//console.log(employeesDictionary);
+function createNewArrayOfBosses(arrayOfBosses) {
+	var newDictionary] = [];
+		for(var i = 0; i<arrayOfBosses.length; i++) 
+{
+	var currentBoss = arrayOfBosses[i];
+
+for (var j = 0; j< arrayOfBosses.length; j++ ) {
+	if(currentBoss == arrayOfBosses[j]){
+		arrayOfBosses[j] = null;
+
+	}
+	return newDictionary;
+}
+if (currentBoss !== null) {
+ newDictionary.push(currentBoss);
+}
+}
+console.log(newDictionary);
+}
+
+}
+var arrayOfBosses = employeesDictionary["boss"];
+var arrayOfNames = employeesDictionary["names"]
+
+function subordinatesOfBosses (arrayOfBosses, arrayOfNames) {
+
+	var subordinates = [];
+
+	for ( var = 0; arrayOfNames.length; i++){
+ 	if (arrayofBosses[i] == currentBoss ) {
+ 		subordinates.push(arrayOfNames[i]);
+ 	};
+
+
+	}
+return subordinates;
+}
+
+console.log(subordinatesOfBosses(arrayOfBosses, arrayOfNames, 'pedro'));
+
+
+
+ 
+var boss =  "pedro";
+var subordinates = [ "max", "alex", "tom"];
+newDictionary [boss] = subordinates;
+//console.log(newDictionary);
+
+
+</script>
