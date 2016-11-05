@@ -11,6 +11,35 @@ body {
 	color: #59585b;
 }
 
+
+/* unvisited link global*/
+a:link {
+    color: #59585b;
+    text-decoration: none;
+}
+
+/* visited link global*/
+a:visited {
+    color: #59585b;
+    text-decoration: none;
+}
+
+/* mouse over link global*/
+a:hover {
+    color: #9ed5bc;
+    text-decoration: none;
+}
+
+/* selected link global */
+a:active {
+    color: #59585b;
+    text-decoration: none;
+}
+
+
+
+/* -----------navbar----------- */
+
 .hlsd-navbar-nav {
 
 }
@@ -42,28 +71,38 @@ body {
 	font-size: 16pt;
 }
 
-/* unvisited link */
-a:link {
+/* unvisited link navbar*/
+.hlsd-navbar-li a:link {
     color: white;
     text-decoration: none;
 }
 
-/* visited link */
-a:visited {
+/* visited link navbar*/
+.hlsd-navbar-li a:visited {
     color: white;
     text-decoration: none;
 }
 
-/* mouse over link */
-a:hover {
+/* mouse over link navbar*/
+.hlsd-navbar-li a:hover {
     color: #9ed5bc;
     text-decoration: none;
 }
 
-/* selected link */
-a:active {
+/* selected link navbar */
+.hlsd-navbar-li a:active {
     color: white;
     text-decoration: none;
+}
+
+
+/* -----------navbar----------- */
+
+
+
+#hlsd-index-h3 {
+	text-align: center;
+	font-size: 20px;
 }
 
 .hlsd-jumbotron-div {
@@ -108,6 +147,9 @@ a:active {
 	box-shadow: 0px 2px 4px #282828;
 }
 
+
+/* -----------footer----------- */
+
 .hlsd-footer {
     background-color: rgba(60, 60, 60, 0.5);
     height: 50px;
@@ -118,6 +160,7 @@ a:active {
 .hlsd-footer-div {
 	color: white;
 	text-align: center;
+	padding-top: 1px;
 }
 
 .hlsd-copyright {
@@ -125,6 +168,33 @@ a:active {
 	margin-top: 15px;
 	text-align: center;
 }
+
+/* unvisited link footer*/
+.hlsd-footer-div a:link {
+    color: white;
+    text-decoration: none;
+}
+
+/* visited link footer*/
+.hlsd-footer-div a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+/* mouse over link footer*/
+.hlsd-footer-div a:hover {
+    color: #9ed5bc;
+    text-decoration: none;
+}
+
+/* selected link footer */
+.hlsd-footer-div a:active {
+    color: white;
+    text-decoration: none;
+}
+
+/* -----------footer----------- */
+
 
 
 
