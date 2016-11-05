@@ -6,88 +6,51 @@ html {
 body {
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
+	background: url('../img/background-image.jpg');
+	color: #59585b;
 }
 
-.hlsd-top-bar {
-	margin-top: -10px;
-	background-color: blue;
-	padding-top: 0px;
+.hlsd-navbar-nav {
+
 }
 
-.hlsd-navbar-background {
-	background-color: #333;
+.hlsd-navbar-div {
+	background-color: rgba(60, 60, 60, 0.5);
+	box-shadow: 0px 3px 12px #282828;
 	height: 75px;
 }
 
-.hlsd-word-navbar {
-	color: #777;
+.hlsd-navbar-a {
 	float: left;
-	font-size: 22px;
-	padding-left: 50px;
-	padding-top: 23px;
+	padding-left: 25px;
+	padding-top: 10px;
 }
 
-.hlsd-li-navbar {
-	color: #777;
-}
-
-li {
+.hlsd-navbar-ul {
 	float: right;
-	font-size: 15px;
-	padding-right: 50px;
-	padding-top: 27px;
+	list-style-type: none;
+	padding-top: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 500;
 }
 
-.hlsd-jumbotron {
-	padding: 50px;
+.hlsd-navbar-li {
+	display: inline;
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 16pt;
 }
 
-.hlsd-logo {
-	margin-left: 50px;
-}
-
-.ph-button {
-	border: solid 2px;
-	color: white;
-	padding: 30px 30px 30px 30px;
-	text-align: center;
-	vertical-align: middle;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 130px;
-	font-size: 24px;
-}
-
-.ph-button > a:link {
-	color: white;
-	text-decoration: none;
-}
-.ph-button > a:hover {
-	color: #9ed5bc;
-	text-decoration: none;
-}
-
-.ph-button > a:visited {
-	color: white;
-	text-decoration: none;
-}
-
-#ph-container {
-	background-image: url(../img/ph-all-fruit.jpg);
-	width: 100%;
-	height: 350px;
-
-}
 /* unvisited link */
 a:link {
-    color: ##777;
+    color: white;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: ##777;
+    color: white;
     text-decoration: none;
 }
 
@@ -99,67 +62,57 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: ##777;
+    color: white;
     text-decoration: none;
 }
 
+.hlsd-jumbotron-div {
+	width: 100%;
+}
+
+.hlsd-jumbotron-h1 {
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 600;
+}
+
+.hlsd-jumbotron-img {
+	margin: auto;
+	display: block;
+}
+
+.hlsd-index-img-div {
+	margin-top: 50px;
+}
+
+.hlsd-index-img {
+	border-radius: 10%;
+	margin: auto;
+	display: block;
+	border: 3px solid white;
+	box-shadow: 0px 2px 4px #282828;
+}
 
 .hlsd-footer {
-	background-color: #333;
-	height: 50px;
+    background-color: rgba(60, 60, 60, 0.5);
+    height: 50px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.hlsd-footer-div {
+	color: white;
+	text-align: center;
 }
 
 .hlsd-copyright {
-	color: white;
-	text-align: center;
-	padding-top: 12px;
-}
-
-.jumbotron-about-us{
-	background-color: #9ed5bc;
-	width: 100%;
-	height: 200px;
-}
-
-.jumbotron-about-us h2 {
-	color: #58585b;
-	text-align: center; 
-}
-
-.jumbotron-about-us p{
-	color: white;
-	text-align: center;
-	margin-left: 300px;
-	margin-right: 300px;
-}
-
-#littlesister-h1, #bigsister-h1 {
+	font-size: 15px;
+	margin-top: 15px;
 	text-align: center;
 }
 
-#littlesister-p, #bigsister-p {
-	text-align: justify;
-}
-
-#contact-h3 h3 {
-	color: #58585b;
-	text-align: center; 
-}
 
 
-form {
-	text-align: center;
-	margin: 0 200px 50px 200px;
-}
 
-.contactimage {
-	margin-bottom: 50px;
-}
 
-.contact-button {
-	background-color: #9ed5bc;
-	color: white;
-	margin-bottom: 25px;
-	border: none;
-	padding: 10px 25px 10px 25px;
-}
