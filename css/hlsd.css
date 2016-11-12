@@ -103,6 +103,7 @@ a:active {
 #hlsd-index-h3 {
 	text-align: center;
 	font-size: 20px;
+	padding-bottom: 40px;
 }
 
 .hlsd-jumbotron-div {
@@ -114,6 +115,8 @@ a:active {
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 40px
 }
 
 .jumbotron-about-us {
@@ -282,5 +285,47 @@ a:active {
 }
 
 #contactForm {
+	text-align: center;
+}
+
+
+/* ////////////////////////////////////////////// logo list page */
+
+
+
+.hlsd-parallax {
+    background-image: url('../img/white-parallax-background.jpg');
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.hlsd-parallax-p {
+    text-align:center;
+  	color:#58585b;
+  	font-size: 18px;
+  	text-align: center;
+  	padding-top: 50px;
+}
+
+.hlsd-logo-list-page-img {
+	margin: auto;
+	display: block;
+}
+
+.logo-list-page-logo-name {
+	text-align: center;
+}
+
+.logo-list-page-description {
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.hlsd-logo-list-h1 {
 	text-align: center;
 }
