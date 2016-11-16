@@ -16,19 +16,19 @@
 			"typeName": "Websites",
 			"typeImage": "img/nataliasshavedice_logo_thumbnail.jpg"
 		},
-		
+
 		{
-			"typeName": "Logos",
+			"typeName": "test",
 			"typeImage" : "img/logos.png"
 		},
 
 		{
-			"typeName": "Businesscards",
+			"typeName": "test2",
 			"typeImage": "img/fkc_logo_thumbnail.jpg"
 		},
 
 		{
-			"typeName": "Websites",
+			"typeName": "test3",
 			"typeImage": "img/nataliasshavedice_logo_thumbnail.jpg"
 		}
 	],
