@@ -1,73 +1,57 @@
 {
-	"projectListType":
+		
+	"projectTypeList":
 	[
 		{
-			"name": "Logos",
-			"thumb" : "img/newlimeco_logo_thumbnail.jpg",
-			"description": "Powerful Harvest is a tropical produce line from New Limeco, LLC specializing in the finest quality avocados, coconuts, papayas, and guavas. They promote the idea that being healthy starts from what you put into your body. For this reason, three of their four products carry the Non-GMO certification. With years of experience in the produce industry, New Limeco prides themselves with being able to provide consumers with top-of-the-line quality produce while utilizing state-of-the-art sanitary practices, equipment, and production techniques while still retaining their hands on “mom-and-pop company” values. When they came to us to brand their new Powerful Harvest line they already had their New Limeco logo, but, they needed a way to incorporate the new line of produce with their existing products. (All photography was done by Hey Little Sister Design.)",
-			"images": [
-					{"imagetitle" : "PowerfulHarvest",
-					"thumb" : "img/newlimeco_logo_thumbnail.jpg",
-					"fullsize" : "img/newlimeco_logo_fullsize.jpg"}
-			]
+			"typeName": "Logos",
+			"typeImage" : "img/logos.png"
 		},
 
 		{
-			"name": "Businesscards",
-			"thumb": "img/fkc_logo_thumbnail.jpg",
-			"description": "Florida Keys Cardiology is a non-invasive cardiologist office headed by Madhavi G. Chunduru, MD in Homestead, Florida. She personally performs all specialized treatments with over 20 years of experience. Dr. Chunduru wanted to establish an image for her company that would make her recognizable in the community. She wanted something that was warm and welcoming yet professional.",
-			"images": [
-					{"imagetitle" : "FloridaKeysCardiology",
-					"thumb" : "img/fkc_logo_thumbnail.jpg",
-					"fullsize" : "fkc_logo_fullsize.jpg"}
-				]
+			"typeName": "Businesscards",
+			"typeImage": "img/fkc_logo_thumbnail.jpg"
 		},
 
 		{
-			"name": "Websites",
-			"thumb": "img/nataliasshavedice_logo_thumbnail.jpg",
-			"description": "Natalia’s Shaved Ice has been a local favorite in Homestead, Florida for the past eight years. They are at the Redland’s Farmer’s Market every weekend and do big events from Florida City to Miami as well as a lot of fundraising for schools and churches. They are known for their wide variety of products made with homemade flavors and fresh fruit. When re-branding their business Natalia wanted something to reflect their old school style. We decided to go with a vintage hand lettering feel that was simple but still showed the nature of the business.",
-			"images": [
-					{"imagetitle" : "NatalissShavedIce",
-					"thumb" : "img/nataliasshavedice_logo_thumbnail.jpg",
-					"fullsize" : "img/nataliasshavedice_logo_fullsize.jpg"}
-				]
+			"typeName": "Websites",
+			"typeImage": "img/nataliasshavedice_logo_thumbnail.jpg"
+		},
+		
+		{
+			"typeName": "Logos",
+			"typeImage" : "img/logos.png"
 		},
 
-
 		{
-			"name": "Flyers",
-			"thumb": "img/nataliasshavedice_logo_thumbnail.jpg",
-			"description": "Natalia’s Shaved Ice has been a local favorite in Homestead, Florida for the past eight years. They are at the Redland’s Farmer’s Market every weekend and do big events from Florida City to Miami as well as a lot of fundraising for schools and churches. They are known for their wide variety of products made with homemade flavors and fresh fruit. When re-branding their business Natalia wanted something to reflect their old school style. We decided to go with a vintage hand lettering feel that was simple but still showed the nature of the business.",
-			"images": [
-					{"imagetitle" : "NatalissShavedIce",
-					"thumb" : "img/nataliasshavedice_logo_thumbnail.jpg",
-					"fullsize" : "img/nataliasshavedice_logo_fullsize.jpg"}
-				]
+			"typeName": "Businesscards",
+			"typeImage": "img/fkc_logo_thumbnail.jpg"
 		},
 
-
 		{
-			"name": "Stickers",
-			"thumb": "img/nataliasshavedice_logo_thumbnail.jpg",
-			"description": "Natalia’s Shaved Ice has been a local favorite in Homestead, Florida for the past eight years. They are at the Redland’s Farmer’s Market every weekend and do big events from Florida City to Miami as well as a lot of fundraising for schools and churches. They are known for their wide variety of products made with homemade flavors and fresh fruit. When re-branding their business Natalia wanted something to reflect their old school style. We decided to go with a vintage hand lettering feel that was simple but still showed the nature of the business.",
-			"images": [
-					{"imagetitle" : "NatalissShavedIce",
-					"thumb" : "img/nataliasshavedice_logo_thumbnail.jpg",
-					"fullsize" : "img/nataliasshavedice_logo_fullsize.jpg"}
-				]
+			"typeName": "Websites",
+			"typeImage": "img/nataliasshavedice_logo_thumbnail.jpg"
+		}
+	],
+
+	"projectType":
+	[
+		{
+			"thumb":"img/americasescrow_logo_thumb.png",
+			"name": "American Escrow",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum enim porttitor massa varius imperdiet. Proin felis mauris, convallis ullamcorper convallis quis, tempor vitae augue."
 		},
 
+		{
+			"thumb":"img/img/powerfulharvest_logo_thumb.png",
+			"name": "Powerful Harvest",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum enim porttitor massa varius imperdiet. Proin felis mauris, convallis ullamcorper convallis quis, tempor vitae augue."
+		},
 
 		{
-			"name": "Booklets",
-			"thumb": "img/nataliasshavedice_logo_thumbnail.jpg",
-			"description": "Natalia’s Shaved Ice has been a local favorite in Homestead, Florida for the past eight years. They are at the Redland’s Farmer’s Market every weekend and do big events from Florida City to Miami as well as a lot of fundraising for schools and churches. They are known for their wide variety of products made with homemade flavors and fresh fruit. When re-branding their business Natalia wanted something to reflect their old school style. We decided to go with a vintage hand lettering feel that was simple but still showed the nature of the business.",
-			"images": [
-					{"imagetitle" : "NatalissShavedIce",
-					"thumb" : "img/nataliasshavedice_logo_thumbnail.jpg",
-					"fullsize" : "img/nataliasshavedice_logo_fullsize.jpg"}
-				]
+			"thumb":"img/nataliasshavedice_logo_thumb.png",
+			"name": "Natalia's Shaved Ice",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum enim porttitor massa varius imperdiet. Proin felis mauris, convallis ullamcorper convallis quis, tempor vitae augue."
 		}
 	]
+
 }
