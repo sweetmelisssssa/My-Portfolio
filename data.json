@@ -3,34 +3,19 @@
 	"projectTypeList":
 	[
 		{
-			"typeName": "Logos",
+			"typeName": "Logos test",
 			"typeImage" : "img/logos.png"
 		},
 
 		{
-			"typeName": "Businesscards",
+			"typeName": "Businesscards test",
 			"typeImage": "img/fkc_logo_thumbnail.jpg"
 		},
 
 		{
-			"typeName": "Websites",
+			"typeName": "Websites test",
 			"typeImage": "img/nataliasshavedice_logo_thumbnail.jpg"
 		},
-
-		{
-			"typeName": "test",
-			"typeImage" : "img/logos.png"
-		},
-
-		{
-			"typeName": "test2",
-			"typeImage": "img/fkc_logo_thumbnail.jpg"
-		},
-
-		{
-			"typeName": "test3",
-			"typeImage": "img/nataliasshavedice_logo_thumbnail.jpg"
-		}
 	],
 
 	"projectType":
