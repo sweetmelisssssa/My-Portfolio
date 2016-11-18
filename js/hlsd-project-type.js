@@ -38,14 +38,14 @@ return results[1] || 0;
 			var closeString = "</div><div class='row'>";
 			var aux = 0;
 
-			$("#hlsd-project-container").append("<div class='row'>");
+			$("#hlsd-project-type-container").append("<div class='row'>");
 			console.log("opening project")
 			for( var i = 0; i < projectType.length; i++) {
 				aux++;
 				
 				var projectString = drawProject(projectType[i], i);
 
-				$("#hlsd-project-container").append(projectString);
+				$("#hlsd-project-type-container").append(projectString);
 				console.log("drawing project");
 
 
@@ -53,13 +53,13 @@ return results[1] || 0;
 
 				{
 					aux = 0;
-					$("#hlsd-project-container").append(closeString);
+					$("#hlsd-project-type-container").append(closeString);
 					console.log("closing/opening row")
 				}
 
 			}
 
-			$("#hlsd-project-container").append("</div>");
+			$("#hlsd-project-type-container").append("</div>");
 			console.log("closing last row")
 		}
 

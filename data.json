@@ -22,19 +22,19 @@
 	[
 		{
 			"thumb":"img/americasescrow_logo_thumb.png",
-			"name": "American Escrow",
+			"name": "American Escrow test",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum enim porttitor massa varius imperdiet. Proin felis mauris, convallis ullamcorper convallis quis, tempor vitae augue."
 		},
 
 		{
 			"thumb":"img/img/powerfulharvest_logo_thumb.png",
-			"name": "Powerful Harvest",
+			"name": "Powerful Harvest test",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum enim porttitor massa varius imperdiet. Proin felis mauris, convallis ullamcorper convallis quis, tempor vitae augue."
 		},
 
 		{
 			"thumb":"img/nataliasshavedice_logo_thumb.png",
-			"name": "Natalia's Shaved Ice",
+			"name": "Natalia's Shaved Ice test",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris bibendum enim porttitor massa varius imperdiet. Proin felis mauris, convallis ullamcorper convallis quis, tempor vitae augue."
 		}
 	]
