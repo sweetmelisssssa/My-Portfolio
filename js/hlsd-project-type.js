@@ -14,7 +14,7 @@ console.log( "ready!" );
 
 		function mySuccessListener(data)
 		{
-		drawAllProject(data.projectTypeList);
+		drawAllProject(data.projectType);
 
 		}
 
@@ -67,8 +67,7 @@ return results[1] || 0;
 		{
 		
 		var aux = '<div class="col-sm-4"><img class="hlsd-logo-list-page-img" src="'+projectType.thumb+'" width ="275px"><h3 class="logo-list-page-logo-name?id='+projectType+'">'+projectType.name+'</h3><p class="logo-list-page-description">'+projectType.description+'</p></div>';
-
-
+		
 		return aux;
 
 		}
