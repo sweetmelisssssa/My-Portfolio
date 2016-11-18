@@ -304,11 +304,11 @@ a:active {
 	display: block;
 }
 
-.logo-list-page-logo-name {
+#logo-list-page-logo-name {
 	text-align: center;
 }
 
-.logo-list-page-description {
+#logo-list-page-description {
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;

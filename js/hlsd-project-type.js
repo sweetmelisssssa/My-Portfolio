@@ -66,7 +66,7 @@ return results[1] || 0;
 		function drawProject(projectType, projectNumber)
 		{
 		
-		var aux = '<div class="col-sm-4"><img class="hlsd-logo-list-page-img" src="'+projectType.thumb+'" width ="275px"><h3 class="logo-list-page-logo-name?id='+projectType+'">'+projectType.name+'</h3><p class="logo-list-page-description">'+projectType.description+'</p></div>';
+		var aux = '<div class="col-sm-4"><img class="hlsd-logo-list-page-img" src="'+projectType.thumb+'" width ="275px"><h3 id="logo-list-page-logo-name?id='+projectType+'">'+projectType.name+'</h3><p id="logo-list-page-description">'+projectType.description+'</p></div>';
 		
 		return aux;
 
