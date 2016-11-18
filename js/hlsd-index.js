@@ -63,10 +63,10 @@ return results[1] || 0;
 			console.log("closing last row")
 		}
 
-		function drawProject(projectTypeList, projectNumber)
+		function drawProject(projectTypeList)
 		{
 		
-		var aux = '<div class="col-sm-4"><img class="hlsd-index-img" src="'+projectTypeList.typeImage+'" width ="275px"><h3 id="hlsd-index-h3"><a href="logo-list-page.html?id='+projectNumber+'">'+projectTypeList.typeName+'</a></h3></div>';
+		var aux = '<div class="col-sm-4"><img class="hlsd-index-img" src="'+projectTypeList.typeImage+'" width ="275px"><h3 id="hlsd-index-h3"><a href="'+projectTypeList.typeLink+'">'+projectTypeList.typeName+'</a></h3></div>';
 
 
 		return aux;

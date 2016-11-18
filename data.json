@@ -4,17 +4,22 @@
 	[
 		{
 			"typeName": "Logos test",
-			"typeImage" : "img/logos.png"
+			"typeImage": "img/logos.png",
+			"typeLink": "#"
 		},
 
 		{
 			"typeName": "Businesscards test",
-			"typeImage": "img/businesscards.png"
+			"typeImage": "img/businesscards.png",
+			"typeLink": "#"
+
 		},
 
 		{
 			"typeName": "Websites test",
-			"typeImage": "img/webdesign.png"
+			"typeImage": "img/webdesign.png",
+			"typeLink": "#"
+
 		}
 	],
 
